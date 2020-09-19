@@ -1,0 +1,34 @@
+<script type="text/javascript">  
+
+	 function check_login() {
+	
+	 let judge = true;
+
+	 let e_mail = document.getElementById("login_e_mail");
+	 let password = document.getElementById("login_password");
+
+      if (password.value.length == 0) {judge = false; password.focus();}
+      if (e_mail.value.length == 0) {judge = false; e_mail.focus();}
+	  
+
+      // if (judge == true ) {alert("Thank you.");}
+
+	 	return judge;
+
+	 } 
+
+	 function check($str) {
+
+
+	 	let str = document.getElementById($str);
+	
+	 	var judge = true;
+
+			if (str.value.length == 0) {
+				judge = false; 
+				str.focus();
+			}
+			return judge; 		
+	 } 
+
+</script>
