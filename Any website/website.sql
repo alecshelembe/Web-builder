@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 19, 2020 at 11:54 PM
+-- Generation Time: Sep 25, 2020 at 09:50 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.3
 
@@ -41,7 +41,7 @@ CREATE TABLE `sign_in` (
 --
 
 INSERT INTO `sign_in` (`name`, `email`, `security_key`, `account_state`, `login_times`) VALUES
-('test', 'test@test', '1234', '1', '2');
+('test', 'test@test', '1234', '1', '3');
 
 -- --------------------------------------------------------
 
@@ -117,7 +117,7 @@ CREATE TABLE `website` (
 --
 
 INSERT INTO `website` (`standard`, `title`, `number`, `email`, `menu-link-1`, `menu-link-2`, `menu-link-3`, `menu-link-4`, `main-heading`, `paragraph-heading`, `header-a`, `product-a-1`, `product-a-2`, `product-a-3`, `product-a-4`, `header-b`, `product-b-1`, `product-b-2`, `product-b-3`, `product-b-4`, `header-c`, `product-c-1`, `product-c-2`, `product-c-3`, `product-c-4`, `header-d`, `product-d-1`, `product-d-2`, `product-d-3`, `product-d-4`, `header-e`, `product-e-1`, `product-e-2`, `product-e-3`, `product-e-4`, `header-f`, `product-f-1`, `product-f-2`, `product-f-3`, `product-f-4`, `header-g`, `product-g-1`, `product-g-2`, `product-g-3`, `product-g-4`, `header-h`, `product-h-1`, `product-h-2`, `product-h-3`, `product-h-4`, `header-i`, `product-i-1`, `product-i-2`, `product-i-3`, `product-i-4`, `header-j`, `product-j-1`, `product-j-2`, `product-j-3`, `product-j-4`) VALUES
-('1', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
+('1', 'Plants', '', '', '', '', '', '', 'Nalas Cabbage ', '', ' ', ' ', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
 
 --
 -- Indexes for dumped tables
